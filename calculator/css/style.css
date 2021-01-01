@@ -1,0 +1,30 @@
+.calculator {
+  padding: 10px;
+  max-width: 250px;
+  margin: 0px;
+}
+
+.calculator-btn {
+  padding: 30px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+}
+
+button:focus {
+  border: 1px solid royalblue;
+  outline: none;
+}
+
+input[type=text] {
+  padding: 5px;
+  width: 85%;
+  font-size: 20px;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 2px solid royalblue;
+}
